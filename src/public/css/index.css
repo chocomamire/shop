@@ -1,0 +1,75 @@
+.shop__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 1行に4つの要素を並べる */
+    gap: 20px;
+    /* 各アイテムの間隔 */
+    margin-bottom: 20px;
+    /* 最後の行との余白 */
+}
+
+.shop__picture {
+    border: 1px solid #ddd;
+    /* ボーダーを追加 */
+    padding: 16px;
+    /* 内側の余白 */
+    border-radius: 8px;
+    /* 角を丸く */
+    background-color: #fff;
+    /* 背景色 */
+    text-align: left;
+    /* テキストを中央揃え */
+}
+
+.shop__img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.shop__name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.shop__tag p {
+    margin: 5px 0;
+}
+
+/* ♡ボタンを右寄せするためのスタイル */
+.detail__favorite__button {
+    display: flex;
+    justify-content: space-between;
+    /* ボタンを左右に配置 */
+    align-items: center;
+    /* 垂直方向に中央揃え */
+}
+
+.a {
+    text-decoration: none;
+}
+
+/* 「詳しく見る」ボタンのスタイル */
+.shop__detail__button-submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: auto;
+}
+
+
+/* ♡ボタンのスタイル */
+.shop__favorite__button-submit {
+    font-size: 24px;
+    color: lightgray;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.detail__favorite__button-submit.active {
+    color: #c51b29;
+}

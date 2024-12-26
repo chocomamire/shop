@@ -1,0 +1,20 @@
+.shop__content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.shop__name {
+    padding: 10px 10px;
+}
+
+.shop__img {
+    padding: 0 10px;
+}
+
+.shop__tag {
+    padding: 10px 10px;
+}
+
+.detail {
+    padding: 0 10px;
+}
